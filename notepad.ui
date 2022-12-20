@@ -90,6 +90,9 @@
    <property name="text">
     <string>save as</string>
    </property>
+   <property name="shortcut">
+    <string>Ctrl+Shift+S</string>
+   </property>
   </action>
   <action name="actionclose">
    <property name="text">
@@ -99,6 +102,9 @@
   <action name="actionundo">
    <property name="text">
     <string>undo</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Z</string>
    </property>
   </action>
   <action name="actioncut">
@@ -110,6 +116,9 @@
    <property name="text">
     <string>copy</string>
    </property>
+   <property name="shortcut">
+    <string>Ctrl+C</string>
+   </property>
   </action>
   <action name="actionpaste">
    <property name="text">
@@ -119,6 +128,9 @@
   <action name="actionfind">
    <property name="text">
     <string>find</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+F</string>
    </property>
   </action>
   <action name="actionnextfind">
