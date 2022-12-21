@@ -5,13 +5,13 @@ from PyQt5.QtGui import QTextCursor
 from PyQt5 import QtCore
 
 #form_class = uic.loadUiType("D:\\pyqttest\\2.notepad\\notepad.ui")[0]
-form_class = uic.loadUiType("notepad.ui")[0]    #코드가 있는 폴더 기준 상대경로
+form_class = uic.loadUiType(".\\notepad.ui")[0]    #코드가 있는 폴더 기준 상대경로
 
 #찾기 열었을때 나오는 창
 class findWindow(QDialog):
     def __init__(self, parent):
         super(findWindow, self).__init__(parent)
-        uic.loadUi("D:\\pyqttest\\2.notepad\\find.ui", self)
+        uic.loadUi(".\\find.ui", self)
         self.show()
 
         self.parent = parent
